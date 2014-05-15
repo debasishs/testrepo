@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- light gray shadow -->
+
+    <item>
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle" >
+            <corners android:radius="2dp" />
+
+            <solid android:color="#EFEFEF" />
+        </shape>
+    </item>
+
+    <!-- dark gray shadow -->
+
+    <item
+        android:bottom="1dp"
+        android:right="1dp">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle" >
+            <corners android:radius="2dp" />
+
+            <solid android:color="#CFCFCF" />
+        </shape>
+    </item>
+
+    <!-- dark gray border -->
+
+    <item
+        android:bottom="2dp"
+        android:left="1dp"
+        android:right="2dp"
+        android:top="1dp">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="20dp"
+            android:shape="rectangle" >
+            <corners android:radius="2dp" />
+
+            <solid android:color="#7F7F7F" />
+        </shape>
+    </item>
+
+    <!-- light gray border -->
+
+    <item
+        android:bottom="3dp"
+        android:right="3dp">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle" >
+            <corners android:radius="2dp" />
+
+            <solid android:color="#BEBEBE" />
+        </shape>
+    </item>
+
+    <!-- gray body -->
+
+    <item
+        android:bottom="3dp"
+        android:left="1dp"
+        android:right="3dp"
+        android:top="1dp">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="10dp"
+            android:shape="rectangle" >
+            <corners android:radius="2dp" />
+
+            <solid android:color="#A5A5A5" />
+        </shape>
+    </item>
+
+</layer-list>

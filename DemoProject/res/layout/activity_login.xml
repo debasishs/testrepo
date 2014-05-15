@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLogon"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/upper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/usernametxt"
+            style="@style/edt_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="@string/username"
+            android:inputType="text|textNoSuggestions"
+            android:maxLength="50"
+            android:padding="5dip"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/passwordtxt"
+            style="@style/edt_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLength="50"
+            android:padding="5dip"
+            android:singleLine="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dip" >
+
+            <Button
+                android:id="@+id/logon"
+                style="@style/generic_btn"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dip"
+                android:padding="5dp"
+                android:text="@string/login_button"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

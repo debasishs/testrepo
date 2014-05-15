@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="black">#ff000000</color>
+	<color name="white">#ffffff</color>
+	<color name="red">#cf0000</color>
+	<color name="blue">#ff0000ff</color>
+	<color name="gray">#4d4e53</color>
+	<color name="Gray2">#afafaf</color>
+    <color name="Gray4">#616265</color>
+    <color name="Gray5">#E7E2E2</color>
+	<color name="deep_red">#C52120</color>
+	<color name="Gray6">#60605E</color>
+	<color name="filter_gray">#CFCFCF</color>
+	<color name="filter_row_bg">#F5F5F5</color>
+	<color name="header_red">#cc0000</color>
+	<color name="bckgnd_orange">#FF9935</color>
+	<color name="error_banner_yellow">#FFE99C</color>
+	<color name="green">#01a11f</color>
+	<color name="logon_bar_active">#bb1011</color>
+	<color name="logon_bar_inactive">#cc0001</color>
+	<color name="action_bar_logo_selected">#FF9935</color>
+	<color name="light_grey">#4be5e5e5</color>
+</resources>
